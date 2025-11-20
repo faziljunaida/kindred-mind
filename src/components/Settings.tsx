@@ -100,8 +100,8 @@ export const Settings = ({ userId }: SettingsProps) => {
   };
 
   return (
-    <div className="max-w-xl mx-auto">
-      <div className="space-y-6 p-6 bg-card rounded-xl border border-border shadow-soft">
+    <div className="space-y-6 p-6 bg-card rounded-xl border border-border shadow-soft">
+      <div>
         <h2 className="text-2xl font-semibold mb-1">Settings</h2>
         <p className="text-sm text-muted-foreground">
           Manage your preferences and data
@@ -179,7 +179,6 @@ export const Settings = ({ userId }: SettingsProps) => {
           </AlertDialogFooter>
         </AlertDialogContent>
       </AlertDialog>
-      </div>
     </div>
   );
 };
