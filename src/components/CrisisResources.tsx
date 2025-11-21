@@ -3,7 +3,7 @@ import { AlertCircle, Phone, Globe, Heart } from "lucide-react";
 
 export const CrisisResources = () => {
   return (
-    <div className="max-w-2xl mx-auto space-y-6">{/* ... rest stays the same */}
+    <div className="max-w-2xl mx-auto py-8 px-4 space-y-6">
       <div className="flex items-center gap-3">
         <div className="h-12 w-12 rounded-full bg-destructive/10 flex items-center justify-center">
           <AlertCircle className="h-6 w-6 text-destructive" />

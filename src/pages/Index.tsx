@@ -103,6 +103,10 @@ const Index = () => {
           </div>
         </div>
       </div>
+      
+      <footer className="text-center py-6 text-sm text-muted-foreground border-t border-border/50 mt-12">
+        <p>Built with care by Mohammad Faazil</p>
+      </footer>
     </div>
   );
 };
