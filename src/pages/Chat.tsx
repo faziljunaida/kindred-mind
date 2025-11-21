@@ -307,13 +307,13 @@ const Chat = () => {
         </TabsContent>
 
         <TabsContent value="crisis" className="flex-1 overflow-y-auto m-0">
-          <div className="container mx-auto px-4 py-6 max-w-3xl min-h-full flex items-center justify-center">
+          <div className="container mx-auto px-4 py-4 max-w-3xl">
             <CrisisResources />
           </div>
         </TabsContent>
 
         <TabsContent value="settings" className="flex-1 overflow-y-auto m-0">
-          <div className="container mx-auto px-4 py-6 max-w-3xl min-h-full flex items-center justify-center">
+          <div className="container mx-auto px-4 py-4 max-w-3xl">
             <Settings userId={user.id} />
           </div>
         </TabsContent>
